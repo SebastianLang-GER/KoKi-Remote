@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5" viewBox="0 0 1024 1024">
+  <style>@media(prefers-color-scheme:dark){[id=remote]{filter:invert(100%)}}</style>
+  <g id="remote">
+    <circle id="button" cx="512" cy="620" r="60" style="stroke:#fff;stroke-width:10px"/>
+    <path id="frame" d="M687 442.75c0-24.146-19.604-43.75-43.75-43.75h-262.5c-24.146 0-43.75 19.604-43.75 43.75v532.5c0 24.146 19.604 43.75 43.75 43.75h262.5c24.146 0 43.75-19.604 43.75-43.75v-532.5Zm-87.5 43.75h-175v445h175v-445Z" style="stroke:#fff;stroke-width:10px"/>
+  </g>
+  <path id="wave-1" d="M720.906 263.036a324.997 324.997 0 0 0-417.812 0l48.048 57.261a250.252 250.252 0 0 1 321.716 0l48.048-57.261Z" style="fill:#c14543"/>
+  <path id="wave-2" d="M841.107 119.785a511.997 511.997 0 0 0-658.214 0l49.366 58.832a435.203 435.203 0 0 1 559.482 0l49.366-58.832Z" style="fill:#c14543"/>
+</svg>
