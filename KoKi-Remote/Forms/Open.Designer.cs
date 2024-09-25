@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Open));
             flowLayoutPanelOpen = new FlowLayoutPanel();
             buttonOpen = new Button();
-            label1 = new Label();
+            labelInformation = new Label();
             linkLabel1 = new LinkLabel();
             flowLayoutPanelOpen.SuspendLayout();
             SuspendLayout();
@@ -59,24 +59,25 @@
             buttonOpen.UseVisualStyleBackColor = true;
             buttonOpen.Click += buttonOpen_Click;
             // 
-            // label1
+            // labelInformation
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(12, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(41, 15);
-            label1.TabIndex = 1;
-            label1.Text = "label1";
+            labelInformation.AutoSize = true;
+            labelInformation.Location = new Point(12, 9);
+            labelInformation.Name = "labelInformation";
+            labelInformation.Size = new Size(195, 15);
+            labelInformation.TabIndex = 1;
+            labelInformation.Text = "Open the PWA in your webbrowser";
             // 
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
+            linkLabel1.LinkBehavior = LinkBehavior.HoverUnderline;
             linkLabel1.Location = new Point(12, 24);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(64, 15);
+            linkLabel1.Size = new Size(102, 15);
             linkLabel1.TabIndex = 2;
             linkLabel1.TabStop = true;
-            linkLabel1.Text = "linkLabel1";
+            linkLabel1.Text = "http://localhost:80";
             // 
             // Open
             // 
@@ -85,7 +86,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(484, 161);
             Controls.Add(linkLabel1);
-            Controls.Add(label1);
+            Controls.Add(labelInformation);
             Controls.Add(flowLayoutPanelOpen);
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
@@ -101,7 +102,7 @@
 
         private FlowLayoutPanel flowLayoutPanelOpen;
         private Button buttonOpen;
-        private Label label1;
+        private Label labelInformation;
         private LinkLabel linkLabel1;
     }
 }

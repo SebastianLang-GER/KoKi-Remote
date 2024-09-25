@@ -16,6 +16,7 @@ namespace KoKi_Remote
                 FileName = $"http://localhost:{Properties.Settings.Default.Port}",
                 UseShellExecute = true
             });
+            Close();
         }
     }
 }

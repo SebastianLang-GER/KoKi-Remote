@@ -26,6 +26,7 @@
     <PackageTags>remote, control, API, multimedia, player, projector, ESC/VP21, PTZ, camera, OSC</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -82,37 +83,37 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Update="wwwroot\images\easydcp.webp">
+    <None Update="PWA\images\easydcp.webp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="wwwroot\images\logo.svg">
+    <None Update="PWA\images\logo.svg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="wwwroot\images\next.svg">
+    <None Update="PWA\images\next.svg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="wwwroot\images\play-pause.svg">
+    <None Update="PWA\images\play-pause.svg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="wwwroot\images\play.svg">
+    <None Update="PWA\images\play.svg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="wwwroot\images\previous.svg">
+    <None Update="PWA\images\previous.svg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="wwwroot\images\stop.svg">
+    <None Update="PWA\images\stop.svg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="wwwroot\images\vlc.svg">
+    <None Update="PWA\images\vlc.svg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="wwwroot\index.html">
+    <None Update="PWA\index.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="wwwroot\script.js">
+    <None Update="PWA\script.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="wwwroot\styles.css">
+    <None Update="PWA\styles.css">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
